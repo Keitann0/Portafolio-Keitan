@@ -1,0 +1,109 @@
+html{
+    box-sizing: border-box;
+}
+#nav{
+    padding-top: 20px;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    background: rgb(0,83,173);
+    background: radial-gradient(circle, rgba(0,83,173,1) 0%, rgba(0,27,133,1) 0%, rgba(0,2,35,1) 100%);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    position: fixed;
+    height: 8%;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+.nav-list{
+    font-size: 20px;
+    font-family: 'Rampart One', cursive;
+    padding-right: 40px;
+    color: white;
+    align-self: center;
+}
+.nav-list:hover{
+    color: gold;
+}
+#welcome-section{
+    background: #18171c;
+    padding-top: 0px;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 95vh;
+
+}
+#titulo{
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 300;
+    padding-top: 17%;
+}
+#subtitulo{
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #d53032;
+
+}
+.inicio{
+    text-align: center;
+}
+footer{
+    vertical-align: middle;
+    background: black;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+#social-container{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+a{
+    padding-left: 6px;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width : 1224px) {
+    #nav{
+        height: 11%;
+    }
+   }
+
+@media only screen and (max-width : 1366px) {
+    #nav{
+        height: 11%;
+    }
+   }
+
+@media only screen and (max-width : 900px) {
+    #nav{
+        position: relative;
+        height: 9%;
+    }
+    .nav-list{
+        font-size: 15px;
+    }
+    #titulo{
+        font-size: 48px;
+        padding-top: 150px;
+    }
+    #subtitulo{
+        font-size: 20px;
+    }
+    #social-container{
+        padding-top: 10px;
+    }
+    #welcome-section{
+        height: 100vh;
+
+    }
+    }
