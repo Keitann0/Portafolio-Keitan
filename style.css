@@ -71,6 +71,42 @@ a{
     text-decoration: none;
 }
 
+#about{
+    background: #18171c;
+    padding-top: 0px;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 85vh;
+}
+
+.titulo2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 300;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#about-text{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 15%;
+    font-size: 18px;
+
+}
+
+#profilePic{
+    float: left;
+    border-radius: 5%;
+    width: 25%;
+    height: 20%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
 
 @media only screen and (max-width : 1224px) {
     #nav{
