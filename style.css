@@ -92,6 +92,7 @@ a{
 }
 
 #about-text{
+    color: #CCD1D1;
     display: flex;
     margin-left: 5%;
     margin-right: 15%;
