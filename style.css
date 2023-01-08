@@ -128,32 +128,35 @@ a{
     margin-right: 3%;
 }
 
+/*Laptops pequeñas y tabletas*/
 @media only screen and (max-width : 1224px) {
     #nav{
         height: 11%;
     }
    }
 
+/*Laptops*/
 @media only screen and (max-width : 1366px) {
     #nav{
         height: 11%;
     }
    }
 
+/*Celulares*/
 @media only screen and (max-width : 900px) {
     #nav{
         position: relative;
         height: 9%;
     }
     .nav-list{
-        font-size: 15px;
+        font-size: 18px;
     }
     #titulo{
-        font-size: 48px;
+        font-size: 50px;
         padding-top: 150px;
     }
     #subtitulo{
-        font-size: 20px;
+        font-size: 23px;
     }
     #social-container{
         padding-top: 10px;
@@ -161,5 +164,32 @@ a{
     #welcome-section{
         height: 100vh;
 
+    }
+    #profilePic{
+        float: none;
+        border-radius: 5%;
+        width: 50%;
+        height: 50%;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    #about-text{
+        color: #CCD1D1;
+        display: flex;
+        margin-left: 7%;
+        margin-top: 1%;
+        margin-right: 7%;
+        font-size: 16px;
+        text-align: justify;
+    
+    }
+    #tech-list{
+        margin-top: 2%;
+        margin-left: 11%;
+        font-size: 2.6rem;
+    }
+    .tech{
+        margin-right: 1%;
     }
     }
