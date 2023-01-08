@@ -1,6 +1,9 @@
 html{
     box-sizing: border-box;
 }
+body{
+    overflow: visible;
+}
 #nav{
     padding-top: 20px;
     display: flex;
@@ -15,6 +18,10 @@ html{
     top: 0;
     left: 0;
     width: 100%;        
+}
+.social{
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
 }
 a:hover{
     text-decoration: none;
@@ -95,8 +102,9 @@ a{
     color: #CCD1D1;
     display: flex;
     margin-left: 5%;
+    margin-top: 1%;
     margin-right: 15%;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
 
 }
@@ -108,6 +116,16 @@ a{
     height: 20%;
     margin-bottom: 2%;
     margin-left: 10%;
+}
+
+
+#tech-list{
+    margin-top: 2%;
+    margin-left: 37%;
+    font-size: 4rem;
+}
+.tech{
+    margin-right: 3%;
 }
 
 @media only screen and (max-width : 1224px) {
